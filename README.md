@@ -6,11 +6,11 @@
 
 ## General
 
-- [ ] build first HTML structure
-- [ ] meta tags
-- [ ] add tailwindcss using CDN `<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">`
-- [ ] add style.css header
-- [ ] add script.js in the footer
+- [x] build first HTML structure
+- [x] meta tags
+- [x] add tailwindcss using CDN `<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">`
+- [x] add style.css header
+- [x] add script.js in the footer
 - [ ] build header with links
   - [ ] link to home page
   - [ ] link to meal plan section
@@ -18,9 +18,9 @@
   - [ ] button to get random recipe
   - [ ] JS: fix the header on scroll
   - [ ] JS: hide Get Random button in hero section and show in the others
-- [ ] add footer the website
-  - [ ] link to my repo
-  - [ ] made with love ♥️
+- [x] add footer the website
+  - [x] link to my repo
+  - [x] made with love ♥️
 
 ## Home page
 
