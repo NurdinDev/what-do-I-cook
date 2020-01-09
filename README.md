@@ -16,8 +16,10 @@
   - [ ] link to meal plan section
   - [ ] link to who's section
   - [ ] button to get random recipe
-  - [ ] JS: fix the header on scroll
+  - [x] JS: fix the header on scroll
   - [ ] JS: hide Get Random button in hero section and show in the others
+  - [x] JS: smooth scroll for sections
+  - [x] JS: active menu item on each section
 - [x] add footer the website
   - [x] link to my repo
   - [x] made with love ♥️
