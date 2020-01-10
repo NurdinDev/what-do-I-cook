@@ -12,11 +12,11 @@
 - [x] add style.css header
 - [x] add script.js in the footer
 - [ ] build header with links
-  - [ ] link to home page
+  - [x] link to home page
   - [x] link to meal plan section
   - [x] button to get random recipe
   - [x] JS: fix the header on scroll
-  - [ ] JS: hide Get Random button in hero section and show in the others
+  - [x] JS: hide Get Random button in hero section and show in the others
   - [x] JS: smooth scroll for sections
   - [x] JS: active menu item on each section
 - [x] add footer the website
@@ -49,11 +49,14 @@
 
 ## Search Page
 
-- [ ] show search input with search value
-- [ ] show result items as a grid
-  - [ ] 3 in the row for desktop
-  - [ ] 2 in the row for tablet
-  - [ ] 1 in the row for mobile
+- [x] show search input with search value
+- [x] load 10 items
+- [x] show load more to fetch more data
+- [x] show loading spinner while fetching
+- [x] show result items as a grid
+  - [x] 3 in the row for desktop
+  - [x] 2 in the row for tablet
+  - [x] 1 in the row for mobile
 
 ## Random Page
 

@@ -27,6 +27,14 @@ function isVisible(ele) {
   return (top > 0 || bottom > 0) && top < vHeight;
 }
 
+// handle submit form
+function submitHandler(e) {
+  e.preventDefault();
+  const { value } = document.getElementById('search');
+  if (value) {
+    window.location.href = `/search.html?q=${value}`;
+  }
+}
 ready(function() {
   const navLinks = document.querySelectorAll('.nav-links a');
   const heroSection = document.getElementById('hero');

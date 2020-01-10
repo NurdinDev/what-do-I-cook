@@ -157,7 +157,41 @@
     <div
       class="text-white mt-0 border border-blue-800 py-0 w-full h-full min-h-screen"
       style="background-image:url('https://demos.onepagelove.com/html/leno/images/header-background.jpg')"
-    ></div>
+    >
+      <section id="mealPlan" class="min-h-screen flex justify-center mt-24">
+        <div class="container">
+          <div class="flex justify-center flex-col items-center">
+            <h1
+              class="text-4xl font-bold uppercase text-center text-gray-300 my-10 hidden append-value-here"
+            ></h1>
+
+            <div class="flex flex-wrap append-cards-here"></div>
+
+            <button
+              class="self-center bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded load-more hidden"
+            >
+              Load More
+            </button>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-center mt-48 hidden no-result-message"
+          >
+            <p class="text-4xl my-10">
+              No Results
+            </p>
+            <a
+              href="/index.html"
+              class="self-center bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+            >
+              Back to home
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="loader"></div>
 
     <footer class="bg-gray-800 flex text-white flex-col">
       <div class="container mx-auto w-full py-20">
@@ -205,6 +239,6 @@
       </p>
     <![endif]-->
 
-    <script src="assets/script.js" async defer></script>
+    <script src="assets/search.js" async defer></script>
   </body>
 </html>
