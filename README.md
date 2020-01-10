@@ -13,9 +13,8 @@
 - [x] add script.js in the footer
 - [ ] build header with links
   - [ ] link to home page
-  - [ ] link to meal plan section
-  - [ ] link to who's section
-  - [ ] button to get random recipe
+  - [x] link to meal plan section
+  - [x] button to get random recipe
   - [x] JS: fix the header on scroll
   - [ ] JS: hide Get Random button in hero section and show in the others
   - [x] JS: smooth scroll for sections
@@ -26,28 +25,27 @@
 
 ## Home page
 
-- [ ] build hero page
-  - [ ] full screen hight
+- [x] build hero page
+  - [x] full screen hight
   - [ ] JS: show random background using API like `https://source.unsplash.com/1600x900/?cooking`
-- [ ] add search input with submit button
-  - [ ] add action on click enter to submit
-  - [ ] add action on the button to submit the search
+- [x] add search input with submit button
+  - [ ] handle press enter and button to submit search
   - [ ] JS: on submit open search page with send value as query string
-- [ ] add `Get Random` button
-  - [ ] JS: on click open random page
-- [ ] Meal Plan section
-  - [ ] add header
+- [x] add `Get Random` button
+  - [x] on click open random page
+- [x] Meal Plan section
+  - [x] add header
   - [ ] fetch data from API `https://api.spoonacular.com/recipes/mealplans/generate`
-  - [ ] show items as a grid
-    - [ ] 3 in the row for desktop
-    - [ ] 2 in the row for tablet
-    - [ ] 1 in the row for mobile
-- [ ] New Recipes section
+  - [x] show items as a grid
+    - [x] 3 in the row for desktop
+    - [x] 2 in the row for tablet
+    - [x] 1 in the row for mobile
+- [x] New Recipes section
   - [ ] JS: fetch data from :
-  - [ ] show items as a grid
-    - [ ] 3 in the row for desktop
-    - [ ] 2 in the row for tablet
-    - [ ] 1 in the row for mobile
+  - [x] show items as a grid
+    - [x] 3 in the row for desktop
+    - [x] 2 in the row for tablet
+    - [x] 1 in the row for mobile
 
 ## Search Page
 
@@ -60,9 +58,11 @@
 ## Random Page
 
 - [ ] JS: fetch data from: https://api.spoonacular.com/recipes/random
-- [ ] add title of the page
-- [ ] add one recipe card in the middle
-- [ ] add `Get Random` button down to show next item
+- [ ] JS: presenting data in the page
+- [x] add title of the page
+- [x] add one recipe card in the middle
+- [ ] js: fetch 10 item and refetch again before the end
+- [ ] js: show next and previous item
 
 ## Single Recipe Page
 
