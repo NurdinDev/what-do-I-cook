@@ -9,7 +9,7 @@ const resultsArray = [];
 function getCard(params) {
   return `
     <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
-                <a href="/donee/donee-2">
+                <a href=/single.html?id=${params.id}>
                   <div
                     class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg"
                   >

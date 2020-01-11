@@ -16,7 +16,7 @@ function preloadImage(url) {
 
 function getCard(params) {
   return `
-                <a href="/donee/donee-2">
+                <a href=/single.html?id=${params.id}>
                   <div
                     class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg"
                   >
